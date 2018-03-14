@@ -45,7 +45,7 @@
       <header>triggerApprovalProcess</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>kcontext.getKnowledgeRuntime().signalEvent( &quot;&quot;, null, kcontext.getProcessInstance().getId());
+          <text>kcontext.getKnowledgeRuntime().signalEvent( &quot;approval&quot;, &quot;&quot;, kcontext.getProcessInstance().getId());
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
@@ -137,7 +137,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
