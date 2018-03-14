@@ -19,6 +19,8 @@ public class ApprovalRequest implements java.io.Serializable
 
    private java.lang.String approvalRequired;
 
+   private java.lang.String approvalStatus;
+
    public ApprovalRequest()
    {
    }
@@ -93,11 +95,21 @@ public class ApprovalRequest implements java.io.Serializable
       this.approvalRequired = approvalRequired;
    }
 
+   public java.lang.String getApprovalStatus()
+   {
+      return this.approvalStatus;
+   }
+
+   public void setApprovalStatus(java.lang.String approvalStatus)
+   {
+      this.approvalStatus = approvalStatus;
+   }
+
    public ApprovalRequest(java.lang.String userTag, java.lang.String serviceTag,
          java.lang.String productTag, java.lang.String requester,
          java.lang.String serviceName,
          java.util.List<redhat.cloudapproval.Approver> approver,
-         java.lang.String approvalRequired)
+         java.lang.String approvalRequired, java.lang.String approvalStatus)
    {
       this.userTag = userTag;
       this.serviceTag = serviceTag;
@@ -106,6 +118,7 @@ public class ApprovalRequest implements java.io.Serializable
       this.serviceName = serviceName;
       this.approver = approver;
       this.approvalRequired = approvalRequired;
+      this.approvalStatus = approvalStatus;
    }
 
 }
