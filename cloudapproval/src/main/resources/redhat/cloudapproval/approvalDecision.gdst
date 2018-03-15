@@ -91,7 +91,7 @@
       <header>trigger approval process</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>kcontext.getKnowledgeRuntime().signalEvent( &quot;approval&quot;, approval.getApprovalStatus(), kcontext.getProcessInstance().getId());
+          <text>kcontext.getKnowledgeRuntime().signalEvent( &quot;approval&quot;,&quot;&quot;, kcontext.getProcessInstance().getId());
 </text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
