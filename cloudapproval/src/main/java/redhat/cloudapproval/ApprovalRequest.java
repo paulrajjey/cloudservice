@@ -21,6 +21,8 @@ public class ApprovalRequest implements java.io.Serializable
 
    private java.lang.String approvalStatus;
 
+   private long pid;
+
    public ApprovalRequest()
    {
    }
@@ -105,11 +107,22 @@ public class ApprovalRequest implements java.io.Serializable
       this.approvalStatus = approvalStatus;
    }
 
+   public long getPid()
+   {
+      return this.pid;
+   }
+
+   public void setPid(long pid)
+   {
+      this.pid = pid;
+   }
+
    public ApprovalRequest(java.lang.String userTag, java.lang.String serviceTag,
          java.lang.String productTag, java.lang.String requester,
          java.lang.String serviceName,
          java.util.List<redhat.cloudapproval.Approver> approver,
-         java.lang.String approvalRequired, java.lang.String approvalStatus)
+         java.lang.String approvalRequired, java.lang.String approvalStatus,
+         long pid)
    {
       this.userTag = userTag;
       this.serviceTag = serviceTag;
@@ -119,6 +132,7 @@ public class ApprovalRequest implements java.io.Serializable
       this.approver = approver;
       this.approvalRequired = approvalRequired;
       this.approvalStatus = approvalStatus;
+      this.pid = pid;
    }
 
 }
