@@ -3,130 +3,60 @@
 <property name="name" value="cloudapproval.cloudservicecatalogApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="5" name="approvalRequest_requester" type="InputText" id="918188506">
+<field position="1" name="productTag" type="InputText" id="322369189">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requester (approvalRequest)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Product Approvalquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/requester"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="10" name="approver_name" type="InputText" id="1638097825">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (approver)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approver/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="approvalList" type="MultipleInput" id="628348598">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalList (approvalList)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalList"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="3" name="approvalRequest_approver" bag-type="redhat.cloudapproval.Approver" type="MultipleSubform" id="1498797023">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approver (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/approver"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="17" name="userTag" type="InputText" id="328461369">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;userTag (userTag)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="userTag"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="approvalRequest_approvalRequired" type="InputText" id="1227690086">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalRequired (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/approvalRequired"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="approvalRequest_productTag" type="InputText" id="89958130">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;productTag (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/productTag"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="11" name="approver_type" type="InputText" id="715252207">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;type (approver)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approver/type"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="approvalcount" type="InputTextInteger" id="335403597">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalcount (approvalcount)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalcount"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="6" name="approvalRequest_serviceName" type="InputText" id="773443722">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceName (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/serviceName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="13" name="productTag" type="InputText" id="322369189">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;productTag (productTag)quot;"/>
-<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="productTag"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="serviceName" type="InputText" id="2000389165">
+<field position="0" name="requesterName" type="InputText" id="2100355949">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceName (serviceName)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Requester Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="serviceName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="16" name="serviceTag" type="InputText" id="1866828659">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceTag (serviceTag)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="serviceTag"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="approvalRequest_approvalStatus" type="InputText" id="1082651679">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalStatus (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/approvalStatus"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="approvalRequest_serviceTag" type="InputText" id="776237592">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;serviceTag (approvalRequest)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/serviceTag"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="12" name="noOfApproval" type="InputTextInteger" id="87051372">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;noOfApproval (noOfApproval)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="noOfApproval"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="14" name="requesterName" type="InputText" id="2100355949">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requesterName (requesterName)quot;"/>
-<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="requesterName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="approvalRequest_userTag" type="InputText" id="1597375880">
+<field position="2" name="serviceName" type="InputText" id="2000389165">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;userTag (approvalRequest)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Service Namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="approvalRequest/userTag"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="serviceName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="serviceTag" type="InputText" id="1866828659">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Service Approvalquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="serviceTag"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="userTag" type="InputText" id="328461369">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;User Approvalquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="userTag"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="approvalList" value="java.util.List" id="approvalList"/>
